@@ -1,0 +1,153 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                MANIFOLD SYSTEM v1 - INTERACTIVE EDITION                      ║
+║                                                                              ║
+║                         🚀 START HERE 🚀                                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+👋 Welcome! You have THREE ways to use this system:
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣  INTERACTIVE DEMO (2 minutes - Try This First!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    Windows:    python demo_windows.py
+                (or double-click: run_demo.bat)
+
+    Mac/Linux:  python demo_interactive.py
+
+    What it does:
+    - Generates synthetic data
+    - Runs PCA and UMAP projections
+    - Creates 3 interactive HTML files
+    - You can zoom, pan, and hover!
+
+    Next: Open the HTML files in your browser
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣  INTERACTIVE CLI (5 minutes - No Coding!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    Run:    python interactive_cli.py
+
+    What it does:
+    - Menu-driven interface
+    - Load your CSV or generate data
+    - Choose manifold algorithm
+    - Visualize results
+    - Export to files
+
+    Perfect for: Exploring without writing code
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣  JUPYTER NOTEBOOK (10 minutes - Best Experience)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    Run:    jupyter notebook interactive_notebook.ipynb
+
+    What it does:
+    - Step-by-step workflow
+    - Inline visualizations
+    - Interactive Plotly charts
+    - Experiment with parameters
+    - Save your work
+
+    Perfect for: Data scientists and exploratory analysis
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 Installation (if needed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    Minimum (CLI mode):
+        pip install numpy pandas matplotlib scikit-learn umap-learn
+
+    Full Interactive:
+        pip install numpy pandas matplotlib scikit-learn umap-learn plotly jupyter
+
+    Or use:
+        pip install -r requirements.txt
+
+    Windows Setup:
+        .\setup_windows.ps1        (PowerShell)
+        setup_windows.bat          (Command Prompt)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+❓ Need Help?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    Import errors:          python quick_fix.py
+    Full guide:             Open INTERACTIVE_SUMMARY.md
+    Quick start:            Open QUICKSTART.md
+    Windows issues:         Open TROUBLESHOOTING_WINDOWS.md
+    File descriptions:      Open FILE_CATALOG.md
+    System docs:            Open README.md
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 Quick Start Command
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    Try this right now:
+
+        python demo_interactive.py
+
+    Then open the 3 HTML files it creates!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📚 Documentation Files
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    INTERACTIVE_SUMMARY.md      ← Main guide (read this!)
+    FILE_CATALOG.md             ← What each file does
+    INTERACTIVE_GUIDE.md        ← Guide to all three modes
+    QUICKSTART.md               ← 3-minute getting started
+    README.md                   ← Full system documentation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ What This System Does
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    Takes high-dimensional data (50-1000+ features per entity)
+    ↓
+    Projects to 2D/3D using manifold learning
+    ↓
+    Reveals geometric structure and patterns
+    ↓
+    Interactive visualization for exploration
+
+
+    Algorithms: PCA, t-SNE, UMAP, Isomap, LLE, MDS
+    Use Cases: Company intelligence, patient clustering, product analysis
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀 Ready? Pick One:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    Windows Users:
+    [ ] Run the demo:           python demo_windows.py
+                                (or: run_demo.bat)
+    [ ] Try the CLI:            python interactive_cli.py  
+    [ ] See guide:              Open WINDOWS_START.md
+
+    Mac/Linux Users:
+    [ ] Run the demo:           python demo_interactive.py
+    [ ] Try the CLI:            python interactive_cli.py
+    [ ] Open Jupyter:           jupyter notebook interactive_notebook.ipynb
+
+
+───────────────────────────────────────────────────────────────────────────────
+
+Built for the Manifold geometric intelligence engine prototype.
+Your foundation for proving that geometric intelligence works! 🏔️
+
+───────────────────────────────────────────────────────────────────────────────
